@@ -1,0 +1,83 @@
+
+.hidden {
+    display: none;
+}
+
+@font-face {
+    font-family: 'beanpoleotM00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/beanpoleotM00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bgpaint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.ClockPos {
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ClockCs {
+    font-family: 'beanpoleotM00';
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.ClockPos h1 {
+    font-family: 'beanpoleotM00';
+    font-size: 50px;
+    
+    
+    
+}
+
+.TodoPos {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    height: 0px;
+}
+
+.InputForm {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid;
+    border-bottom-color: #88D9D8;
+}
+
+.TodoList {
+    padding: 0px;
+}
+
+.Bottom-Pos {
+    position: absolute;
+    padding-top: 470px;
+}
+
+.quotestyle {
+    border: 1px solid;
+    padding: 5px;
+}
+
+.quotestyle span:first-child {
+    font-size: 15px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.Weather-pos span {
+    font-size: 20px;
+}

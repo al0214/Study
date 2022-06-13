@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?">
+        <input type="submit" value="Login" />
+    </form>
+
+    <div class="ClockPos">
+        <h2 id="clock" class="ClockCs">00:00:00</h2>
+        <div id="weather" class="Weather-pos">
+            <span></span>
+            <br>
+            <span></span>
+        </div>
+        <h1 id="greeting" class="hidden"></h1>
+        <div class="Bottom-Pos">
+            <div id="quote" class="quotestyle">
+                    <span></span>
+                    <br>
+                    <span></span>
+            </div>
+        </div>
+    </div>
+   
+    <div class="TodoPos">
+        <form id="todo-form">
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todolist</div>
+            <input type="text" placeholder="할 일을 적어주세요." class="InputForm" required /">
+        </form>
+        <!--투두-->
+        <ul id="todo-list" class="TodoList"></ul>
+    </div>
+      <!--명언-->
+    
+    <!--날씨-->
+    
+    
+    <script src="JS/app.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/Quotes.js"></script>
+    <script src="JS/background.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="Js/weather.js"></script>
+</body>
+</html>

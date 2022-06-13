@@ -1,0 +1,312 @@
+.timetable_title1 {
+    width: 100px;
+    height: 20px;
+    padding: 20px 191px 19px;
+    border-top-left-radius: 8px;
+    background-color: #4658f2;
+}
+
+.title_name1 {
+    width: 98px;
+    height: 25px;
+    font-family: NotoSansCJKKR;
+    font-size: 17px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffff
+}
+
+.timetable_title2 {
+    position: relative;
+    left: 482px;
+    bottom: 59px;
+    width: 100px;
+    height: 20px;
+    padding: 20px 191px 19px;
+    border-top-right-radius: 8px;
+    background-color: #eaeaea;
+}
+
+.title_name2 {
+    width: 98px;
+    height: 25px;
+    font-family: NotoSansCJKKR;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+}
+
+.weekday1 {
+    position: relative;
+    bottom: 59px;
+    width: 40px;
+    height: 10px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 30px 56px 30px;
+}
+
+.weekday_1 {
+    font-family: NotoSansCJKKR;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.95;
+    letter-spacing: normal;
+    text-align: center;
+    color: #aaa;
+}
+
+.weekday2 {
+    position: relative;
+    bottom: 131px;
+    left: 154px;
+    width: 47px;
+    height: 10px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 30px 58px 30px;
+}
+
+.weekday3 {
+    position: relative;
+    left: 320px;
+    bottom: 203px;
+    width: 47px;
+    height: 10px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 30px 56px 30px;
+}
+
+.weekday4 {
+    position: relative;
+    left: 481px;
+    bottom: 275px;
+    width: 47px;
+    height: 10px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 30px 55px 30px;
+}
+
+.weekday5 {
+    position: relative;
+    left: 641px;
+    bottom: 347px;
+    width: 47px;
+    height: 10px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 30px 58px 30px;
+}
+
+.weekday6 {
+    position: relative;
+    left: 807px;
+    bottom: 419px;
+    width: 47px;
+    height: 10px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 30px 53px 30px;
+}
+
+.weekday7 {
+    position: relative;
+    bottom: 347px;
+    width: 45px;
+    height: 20px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 35px 53px 35px;
+}
+
+.weekday8 {
+    position: relative;
+    left: 154px;
+    bottom: 440px;
+    width: 47px;
+    height: 25px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 28px 58px 38px;
+}
+
+.weekday9 {
+    position: relative;
+    left: 320px;
+    bottom: 537px;
+    width: 47px;
+    height: 25px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 35px 56px 35px;
+}
+
+.weekday10 {
+    position: relative;
+    left: 481px;
+    bottom: 634px;
+    width: 47px;
+    height: 25px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 35px 55px 35px;
+}
+
+.weekday11 {
+    position: relative;
+    left: 641px;
+    bottom: 731px;
+    width: 47px;
+    height: 25px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 35px 58px 35px;
+}
+
+.weekday12 {
+    position: relative;
+    left: 807px;
+    bottom: 828px;
+    width: 47px;
+    height: 25px;
+    border-bottom: solid 2px #eaeaea;
+    border-left: solid 2px #eaeaea;
+    border-right: solid 2px #eaeaea;
+    padding: 35px 53px 35px;
+}
+
+.position {
+    position: relative;
+    bottom: 72px;
+}
+
+.position1 {
+    position: relative;
+    bottom: 555px;
+}
+
+.position2 {
+    position: relative;
+    bottom: 1036px;
+}
+
+.position3 {
+    position: relative;
+    bottom: 1520px;
+}
+
+.position4 {
+    position: relative;
+    bottom: 2002px;
+}
+
+.position5 {
+    position: relative;
+    bottom: 2485px;
+}
+
+.position6 {
+    position: relative;
+    bottom: 2965px;
+}
+
+.weekday_4 {
+    font-family: NotoSansCJKKR;
+    font-size: 19px;
+    line-height: 0.95;
+    text-align: left;
+    color: #222;
+}
+
+.weekday_3 {
+    width: 31px;
+    height: 25px;
+    margin: 0 8px;
+    font-family: NotoSansCJKKR;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.12;
+    text-align: left;
+    color: #aaa;
+}
+
+.weekday_2 {
+    position: relative;
+    left: 7px;
+    width: 47px;
+    height: 25px;
+    margin: 25px 0 0;
+    font-family: NotoSansCJKKR;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+
+.weekday_7 {
+    position: relative;
+    left: 3px;
+    font-family: NotoSansCJKKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aaa;
+}
+
+.weekday_8 {
+    position: relative;
+    right: 3px;
+    font-family: NotoSansCJKKR;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+
+.weekday_9 {
+    font-family: NotoSansCJKKR;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.95;
+    letter-spacing: normal;
+    text-align: center;
+    color: black;
+}
