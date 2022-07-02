@@ -20,10 +20,3 @@ print(s[0:2])
 s['2018-08-06'] = 490 
 print(s.drop('2018-08-01')) 
 print(s)
-
-######################################
-# 연산 # 
-my_list = [100, 200, 300, 400]
-new_list = []
-for val in my_list: 
-    new_list.append(val/10)

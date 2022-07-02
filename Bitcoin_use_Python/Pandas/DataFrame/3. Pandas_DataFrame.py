@@ -3,12 +3,12 @@ import requests
 
 url = "https://finance.naver.com/item/sise_day.nhn?code=066570" 
 df = pd.read_html(requests.get(url, headers={'User-agent': 'Mozilla/5.0'}).text)
+## 네이버 주식을 가져올때는 requests를 사용하여 헤더에 User-agent': 'Mozilla/5.0을 추가해야 가져올 수 있다.
 
 print(df[0].dropna(axis=0))
 # NaN은 네이버 금융 페이지의 HTML Table의 숨겨진 코드 때문에 NaN이 발생 함으로 dropna 함수를 사용하여 행을 삭제합니다.
 #  dropna 함수는 NaN 값이 1개라도 포함된 행이나 열을 설정하여 모두 제거한다.
 
-## 네이버 주식을 가져올때는 requests를 사용하여 헤더에 User-agent': 'Mozilla/5.0을 추가해야 가져올 수 있다.
 
 ## 추가 설명 ##
 
